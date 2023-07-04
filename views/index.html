@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonor's Calculator</title>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Style links-->
+    <link rel="stylesheet" href="../public/css/style.css">
+    <script src="../public/js/calculator.js"></script>
+</head>
+<body>
+    <br>
+    <br>
+    <!--start-->
+    <table class="text-center d-flex justify-content-center">
+        <tr>
+            <td colspan="4">
+                <input type="text" id="results">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="btn btn-dark" onclick="clearResult()">C</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-dark" onclick="">+/-</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-dark" onclick="">%</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-secondary" onclick="">/</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="btn btn-success" onclick="buttonNum('7')">7</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-success" onclick="buttonNum('8')">8</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-success" onclick="buttonNum('9')">9</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-secondary" onclick="">x</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="btn btn-success" onclick="buttonNum('4')">4</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-success" onclick="buttonNum('5')">5</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-success" onclick="buttonNum('6')">6</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-secondary" onclick="">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="btn btn-success" onclick="buttonNum('1')">1</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-success" onclick="buttonNum('2')">2</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-success" onclick="buttonNum('3')">3</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-secondary" onclick="">+</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="button" class="btn btn-success btntake2" onclick="buttonNum('0')">0</button>
+            </td>
+            <td colspan="1">
+                <button type="button" class="btn btn-success btntake2" onclick="">&pi;</button>
+            </td>
+            <td colspan="1">
+                <button type="button" class="btn btn-secondary btntake2" onclick="">^</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="button" class="btn btn-success btntake2" onclick="">.</button>
+            </td>            
+            <td colspan="2">
+                <button type="button" class="btn btn-secondary btntake2" onclick="">=</button>
+            </td>
+        </tr>
+    </table>
+    <!--end-->
+    
+    <br>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
