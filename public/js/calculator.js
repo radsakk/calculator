@@ -29,7 +29,7 @@ function percentage() {
 
 function exponent() {
     let num = document.getElementById("result").value
-    let result = eval(num ** num)
+    let result = eval(Math.pow(num , 2))
 
     document.getElementById("result").value = result
 }
